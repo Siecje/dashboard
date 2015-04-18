@@ -16,7 +16,6 @@ var app = app || {};
     render: function() {
       var html = this.template();
       this.$el.html(html);
-      console.log('test');
       return this;
     }
   });
