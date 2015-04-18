@@ -1108,7 +1108,10 @@ nav a:hover {
 .nav-right { float: right }
 
 .sub-nav { display: block }
+.float-fix-right { float: right }
 
 @media (min-width: 832px) {
   .sub-nav { display: inline-block }
+  .float-fix-right { float: none }
+  .mr-responsive { margin-right: 1rem }
 }
