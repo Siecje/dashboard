@@ -1111,4 +1111,20 @@ input[type=range] {
 
 .bg-light { background-color: #f5f7f9 }
 
-.spacing-fix { margin-right: -6px }
+/** 
+ * Need to un-fuck floated positioning with fixed widths.... sigh
+ */
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.add-new {
+  width: 36px;
+  height: 24px;
+}
+
+.cog {
+  width: 24px;
+  height: 24px;
+}
