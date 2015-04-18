@@ -13,10 +13,14 @@
   </head>
 
   <body>
+    <!-- Top nav, never changes -->
     <nav>
       <a href='#'>Home</a>
       <a href='#account'>Account</a>
     </nav>
+
+    <!-- Section for alerts, messages, etc -->
+    <header id='flash'></header>
 
     <!-- App container -->
     <main id='app'></main>
@@ -30,10 +34,9 @@
     </script>
   
   <script src='backbone.js'></script>
-  <script src='views/accountview'></script>
-  <script src='views/dashboardview'></script>
+  <script src='views/accountview.js'></script>
+  <script src='views/dashboardview.js'></script>
   <script src='router.js'></script>
   <script src='app.js'></script>
-  <script src='main.js'></script>
   </body>
 </html>

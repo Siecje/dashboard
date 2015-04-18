@@ -5,11 +5,19 @@ var app = app || {};
 
   app.AccountView = Backbone.View.extend({
 
-    template: _._.template($('#tpl-account').html()),
+    el: '#app',
+
+    template: _.template($('#tpl-account').html()),
+
+    initialize: function() {
+      this.render();
+    },
 
     render: function() {
       var html = this.template();
       this.$el.html(html);
+      console.log('test');
+      return this;
     }
   });
 })();
