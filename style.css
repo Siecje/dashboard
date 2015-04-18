@@ -1104,15 +1104,11 @@ input[type=range] {
 }
 
 .bg-grad button,
-.bg-grad .button {
-  color: #c7cfd4;
-}
+.bg-grad .button { color: #c7cfd4 }
 
 .bg-grad button:hover,
-.bg-grad .button:hover {
-  color: #fff;
-}
+.bg-grad .button:hover { color: #fff }
 
-.bg-light {
-  background-color: #f5f7f9;
-}
+.bg-light { background-color: #f5f7f9 }
+
+.spacing-fix { margin-right: -6px }
