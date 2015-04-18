@@ -1092,26 +1092,27 @@ input[type=range] {
  * App Specific
  */
 
-nav { font-size: 0.875em }
-
-nav a {
-  color: rgba(255,255,255,.56);
-  font-size: 0.875em;
-}
-
-nav a:hover {
-  color: rgba(255,255,255,1);
-  text-decoration: none;
-}
-
-.nav-left { float: left }
-.nav-right { float: right }
-
-.sub-nav { display: block }
-.float-fix-right { float: right }
-
 @media (min-width: 832px) {
-  .sub-nav { display: inline-block }
-  .float-fix-right { float: none }
-  .mr-responsive { margin-right: 1rem }
+}
+
+/**
+ * Experiment
+ */
+.bg-grad {
+  color: #c7cfd4;
+  background: #1b2128;
+}
+
+.bg-grad button,
+.bg-grad .button {
+  color: #c7cfd4;
+}
+
+.bg-grad button:hover,
+.bg-grad .button:hover {
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #f5f7f9;
 }
